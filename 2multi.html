@@ -1,5 +1,5 @@
 ---
-title: 2. Dog vs cat classifier
+title: 2. Meandering vs braided river classifier
 layout: default
 ---
 
@@ -7,7 +7,7 @@ layout: default
 <div id="results"></div>
 <script>
   async function loaded(reader) {
-    const response = await fetch('https://ezhikpizhik-cat-dog2.hf.space/run/predict', {
+    const response = await fetch('https://ezhikpizhik-meandering-braided.hf.space/run/predict', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
       headers: { "Content-Type": "application/json" }
     });
