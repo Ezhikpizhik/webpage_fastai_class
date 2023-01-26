@@ -1,5 +1,5 @@
 ---
-title: 1. Single file
+title: 1. Meandering vs Braided Rivers classifier
 layout: default
 ---
 
@@ -7,7 +7,7 @@ layout: default
 <div id="results"></div>
 <script>
   async function loaded(reader) {
-    const response = await fetch('https://hf.space/embed/jph00/pets/+/api/predict/', {
+    const response = await fetch('https://ezhikpizhik-meandering-braided.hf.space/run/predict', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
       headers: { "Content-Type": "application/json" }
     });
