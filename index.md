@@ -2,8 +2,9 @@
 title: Minimal JS Image Classifiers
 ---
 
-- [Meandering vs Braided Rivers classifier](1single.html)
-- [Dog vs cat classifier](2multi.html)
+
+- [Dog vs cat classifier](1single.html)
+- [Meandering vs Braided Rivers classifier](2multi.html)
 
 
 
