@@ -30,7 +30,7 @@ function onFileSelected(event) {
 
   reader.addEventListener("loadend", function() {             
       // Make a API call by passing our image
-      fetch('https://hf.space/embed/jph00/testing/+/api/predict/', {
+      fetch('https://ezhikpizhik-cat-dog2.hf.space/run/predict', {
           method: "POST",
           // reader.result is the base64 string of the uploaded image
           body: JSON.stringify({"data": [reader.result]}),
