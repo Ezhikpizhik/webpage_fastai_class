@@ -1,2 +1,2 @@
-# Site forked from tinypets
-Image classifer via Higging face api
+# Site forked and changedfrom tinypets (fastai) to showcase some classifiers
+Image classifer via Higging face api 
