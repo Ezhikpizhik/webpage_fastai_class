@@ -1,2 +1,2 @@
 # Site forked from tinypets
-Minimal JS interface to an image classifer
+Image classifer via Higging face api
