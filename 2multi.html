@@ -1,12 +1,12 @@
 ---
-title: 2. Multi-file
+title: 2. Dog vs cat classifier
 layout: default
 ---
 
 <input id="photos" type="file" multiple="">
 <script>
   async function loaded(reader) {
-    const response = await fetch('https://hf.space/embed/jph00/pets/+/api/predict/', {
+    const response = await fetch('https://ezhikpizhik-cat-dog2.hf.space/run/predict', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
       headers: { "Content-Type": "application/json" }
     });
