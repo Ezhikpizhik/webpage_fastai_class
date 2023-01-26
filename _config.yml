@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: Braided vs Meandering river Classifiers
-description: Some basic examples of client interfaces to a computer vision API
+description: Some basic examples of classifiers hosted by Hugging Face api
 
 author:
   name: Larisa M
