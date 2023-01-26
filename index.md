@@ -1,5 +1,5 @@
 ---
-title: Minimal JS Image Classifiers
+title: Image Classifiers hosted via hugging face api
 ---
 
 
